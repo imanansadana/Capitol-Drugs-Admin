@@ -1,0 +1,16 @@
+// global variables
+$purple: #643e98 !default;
+$theme-colors: () !default;
+$theme-colors: map-merge(
+  (
+    'primary': $purple,
+  ),
+  $theme-colors
+);
+
+@import 'bootstrap/functions';
+@import 'global/variables-bootstrap';
+@import 'bootstrap/mixins';
+@import 'global/variables-extra';
+@import 'layout/variables-layout';
+@import 'themes/variables-theme';

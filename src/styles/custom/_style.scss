@@ -1,0 +1,43 @@
+body {
+  font-family: 'Sul Sans';
+}
+.app-layout.ant-layout {
+  min-height: calc(100vh - 1px);
+}
+
+.autocomplete-dropdown-container {
+  max-height: 250px;
+  margin-bottom: 0;
+  padding: 4px 0;
+  padding-left: 0;
+  overflow: auto;
+  list-style: none;
+  outline: none;
+
+  background-color: #fff;
+  border-radius: 6px;
+
+  color: rgba(0, 0, 0, 0.65);
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+
+  &:empty {
+    display: none;
+  }
+  .suggestion-item {
+    position: relative;
+    display: block;
+    padding: 5px 12px;
+    overflow: hidden;
+    color: rgba(0, 0, 0, 0.65);
+    font-weight: normal;
+    font-size: 13px;
+    line-height: 22px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    cursor: pointer;
+    transition: background 0.3s ease;
+    &:hover {
+      background: #eeeeee;
+    }
+  }
+}

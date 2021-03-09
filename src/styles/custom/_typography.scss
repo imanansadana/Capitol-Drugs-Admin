@@ -1,0 +1,17 @@
+.main-title {
+  font-size: 26px;
+  font-weight: 500;
+  color: $purple;
+  &.sm {
+    font-size: 20px;
+  }
+}
+
+.ck-editor__main {
+  p {
+    line-height: 1.2;
+  }
+  .ck-editor__editable {
+    min-height: 100px;
+  }
+}

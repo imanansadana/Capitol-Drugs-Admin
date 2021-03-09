@@ -1,0 +1,6 @@
+.productImage {
+  $size: 120px;
+  width: $size;
+  height: $size;
+  object-fit: contain;
+}
